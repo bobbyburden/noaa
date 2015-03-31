@@ -30,5 +30,6 @@ This can be run at any time to update the stations, but you must run it once to 
   s.test_files = ["spec/station_writer_spec.rb", "spec/forecast_spec.rb", "spec/spec_helper.rb", "spec/station_spec.rb", "spec/http_service_spec.rb", "spec/current_conditions_spec.rb"]
   s.add_runtime_dependency('nokogiri', '>= 0.9.7')
   s.add_runtime_dependency('geokit', '>= 1.5.0')
+  s.add_runtime_dependency('libxml-ruby', '>= 2.8.0')
   s.add_development_dependency('rspec')
 end
