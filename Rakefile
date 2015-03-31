@@ -4,7 +4,6 @@ ENV['RUBYOPT'] = '-W1'
 
 require 'ftools'
 require 'rubygems'
-gem 'echoe', '~>3.0'
 require 'echoe'
 require './lib/noaa.rb'
 
